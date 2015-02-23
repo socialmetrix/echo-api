@@ -12,7 +12,11 @@ Username: arjones
 Token: e621ef33-62b0-4a44-9c9c-559f40b546cb
 ```
 
-Also, you need to provide a valid Echo Instance, your instance is defined at your URL, for example, if your url is: http://socialmetrix-lat.smxecho.com/ your instance is `socialmetrix-lat`.
+##API base URL
+Our current API uses your **Echo Instance** as **base url** , your instance is defined at your URL, for example, if your url is: http://socialmetrix-lat.smxecho.com/ your instance is `socialmetrix-lat`.
+
+Once you have the instance, you can setup the base url as follows:
+`http://$INSTANCE.smxecho.com/ws/$INSTANCE/echo`
 
 ##Authentication
 Once you have your credentials you MUST include them as part of HTTP HEADER.
@@ -34,7 +38,10 @@ curl \
 During this initial phase, the API isn't rate limited, we want to learn from our customers' consumption patterns to provide an easy to use API. Keep in mind that misuse or abuse will be blocked.
 
 ##API ready for use
-* [/brands](sections/brands.md): Provides information related to Brand Balance.
+Currently available endpoints are:
+
+* [/options/brands](sections/brands-metadata.md): Provides information about the brands metadata.
+* [/reputation/brands](sections/brands.md): Provides information related to Brand Balance.
 
 
 ##Help us make it better
