@@ -21,13 +21,13 @@ As an example, using `curl`:
 ```shell
 INSTANCE=socialmetrix-lat
 SMXUSER=arjones
-TOKEN=4a78d0f3-XXXX-XXXX-XXXX-142XXXXc37a6
+TOKEN=e621ef33-62b0-4a44-9c9c-559f40b546cb
 
 curl \
   -H "username: $SMXUSER" \
   -H "token: $TOKEN" \
   -H 'Content-Type: application/json' \
-  "http://$INSTANCE.smxecho.com/ws/$INSTANCE/echo/reputation/brands"
+  "http://$INSTANCE.smxecho.com/ws/$INSTANCE/echo/options/brands"
 ```
 
 ##Rate limiting
