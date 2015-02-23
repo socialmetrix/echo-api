@@ -7,7 +7,7 @@ You MUST provide this parameters:
 parameter | format | example | description
 --- | --- | --- | --- 
 startDate | YYYY-MM-DD | 2015-01-24 | Starting range
-endDate | YYYY-MM-DD | 2015-02-23 | Ending range (excludent) 
+endDate | YYYY-MM-DD | 2015-02-23 | Ending range (including) 
 
 Optional parameters are:
 

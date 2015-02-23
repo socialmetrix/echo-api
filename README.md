@@ -40,8 +40,11 @@ During this initial phase, the API isn't rate limited, we want to learn from our
 ##API ready for use
 Currently available endpoints are:
 
-* [/options/brands](sections/brands-metadata.md): Provides information about the brands metadata.
-* [/reputation/brands](sections/brands.md): Provides information related to Brand Balance.
+* [/options/brands](sections/brands-metadata.md): Provides information about the **brands metadata**.
+* [/reputation/brands](sections/brands.md): Provides information about the **brand reputation**.
+* [/sparkline/brands/mentions](sections/mentions.md): Provides information about the **brand's mentions**.
+* [/sparkline/brands/authors](sections/authors.md): Provides information about the **brand's authors**.
+* [/sparkline/brands/sources](sections/sources.md): Provides information about the **brand's sources**.
 
 
 ##Help us make it better

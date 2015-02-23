@@ -1,6 +1,6 @@
 ##Get Brands Metadata
 
-* `GET /options/brands` will return brands metadata, that will be used as paramater on others endpoints.
+* `GET /options/brands` will return brands metadata, that will be used as parameter on others endpoints.
 
 ```shell
 curl \
