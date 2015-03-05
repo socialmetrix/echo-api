@@ -8,6 +8,6 @@ ID | description
 2	| NEGATIVE
 3	| OBJECTIVE
 4	| RESERVED (do not use)
-5	| Without classification, neither machine nor human classified this opinions
+5	| WITHOUT CLASSIFICATION, neither machine nor human classified this opinions
 
 The absence of this parameter means your metric contains all opinions, meaning `opinions=1,2,3`.

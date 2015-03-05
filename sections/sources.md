@@ -13,8 +13,8 @@ Optional parameters are:
 
 parameter | format | example | description
 --- | --- | --- | --- 
-entities | IDs separated by comma | 1,2,4 | Ids from [/options/brands](sections/brands-metadata.md)
-opinions | IDs separated by comma | 1,2,3 | Ids from [Opinions table](sections/opinions.md)
+entities | IDs separated by comma | 1,2,4 | Ids from [/options/brands](./brands-metadata.md)
+opinions | IDs separated by comma | 1,2,3 | Ids from [Opinions table](./opinions.md)
 groupingHours | 1 or 24 | 24 | Group results as 24hours period, ie: Days
 previousPeriod | Boolean | false | Should include Previously period
 
