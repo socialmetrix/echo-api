@@ -1,11 +1,11 @@
 #Socialmetrix Echo API
 
-Below you will the documentation for [Socialmetrix Echo](http://socialmetrix.com/#products) API.
-Any doubt or suggestion you can [contact us](mailto:product@socialmetrix.com) directly.
+Below you will find the documentation for [Socialmetrix Echo](http://socialmetrix.com/#products) API.
+If you have any doubts or suggestions you can [contact us](mailto:product@socialmetrix.com) directly.
 
 ##Getting Started
 
-In order to access our API you need to get your credentials consisting of an username and a token, please refer to your account executive to obtain them. They will be like this: 
+In order to access our API you need to get your credentials consisting of a username and a token; please refer to your account executive to obtain them. They should look like this: 
 
 ```
 Username: arjones
@@ -13,7 +13,7 @@ Token: e621ef33-62b0-4a44-9c9c-559f40b546cb
 ```
 
 ##API base URL
-Our current API uses your **Echo Instance** as **base url** , your instance is defined at your URL, for example, if your url is: http://socialmetrix-lat.smxecho.com/ your instance is `socialmetrix-lat`.
+Our current API uses your **Echo Instance** as **base url**. Your instance is defined at your URL; if, for example, your URL is: http://socialmetrix-lat.smxecho.com/ , then your instance is `socialmetrix-lat`.
 
 Once you have the instance, you can setup the base url as follows:
 `http://$INSTANCE.smxecho.com/ws/$INSTANCE/echo`
@@ -35,9 +35,9 @@ curl \
 ```
 
 ##Rate limiting
-During this initial phase, the API isn't rate limited, we want to learn from our customers' consumption patterns to provide an easy to use API. Keep in mind that misuse or abuse will be blocked.
+During this initial phase, the API isn't rate limited, we want to learn from our customers' consumption patterns to provide an easy way to use the API. Keep in mind that misuse or abuse will result in blocking.
 
-##API ready for use
+##API ready for usage
 Currently available endpoints are:
 
 * [/options/brands](sections/brands-metadata.md): Provides information about the **brands metadata**.
