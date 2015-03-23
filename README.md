@@ -13,7 +13,7 @@ Token: e621ef33-62b0-4a44-9c9c-559f40b546cb
 ```
 
 ##API base URL
-Our current API uses your **Echo Instance** as **base url**. Your instance is defined at your URL, e.g.: http://socialmetrix-lat.smxecho.com/ , then your instance is `socialmetrix-lat`.
+Our current API uses your **Echo Instance** as **base url**. Your instance is defined at your URL; if, for example, your URL is: http://socialmetrix-lat.smxecho.com/ , then your instance is `socialmetrix-lat`.
 
 Once you have the instance, you can setup the base url as follows:
 `http://$INSTANCE.smxecho.com/ws/$INSTANCE/echo`
