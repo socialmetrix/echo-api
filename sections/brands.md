@@ -1,18 +1,18 @@
-##Get Brand Reputation
+## Get Brand Reputation
 
 * `GET /echo/reputation/brands` will return brands reputation.
 
 You MUST provide this parameters:
 
 parameter | format | example | description
---- | --- | --- | --- 
+--- | --- | --- | ---
 startDate | YYYY-MM-DD | 2015-01-24 | Starting range
-endDate | YYYY-MM-DD | 2015-02-23 | Ending range (including) 
+endDate | YYYY-MM-DD | 2015-02-23 | Ending range (including)
 
 Optional parameters are:
 
 parameter | format | example | description
---- | --- | --- | --- 
+--- | --- | --- | ---
 groupingHours | 1 or 24 | 24 | Group results as 24hours period, ie: Days
 previousPeriod | Boolean | false | Should include Previously period
 

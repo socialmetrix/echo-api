@@ -1,4 +1,4 @@
-##Get Brands Metadata
+## Get Brands Metadata
 
 * `GET /options/brands` will return brands metadata, that will be used as parameter on others endpoints.
 
